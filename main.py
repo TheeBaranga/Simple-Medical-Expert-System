@@ -36,7 +36,6 @@ def infer_disease(user_symptoms, rules):
             possible_diseases.append(rule["conclusion"])
 
     return possible_diseases
- 
 def main():
     print("="*45)
     print(" Medical Diagnosis Rule-Based Expert System ")
