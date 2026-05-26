@@ -10,22 +10,22 @@ DISEASES = ["Malaria", "Pneumonia", "Flu", "Food Poisoning"]
 
 RULES = [
     {
-        "id": "A1",
+        "id": "D1",
         "conditions": ["Fever", "Headache", "Fatigue"],
         "conclusion": "Malaria"
     },
     {
-        "id": "A2",
+        "id": "D2",
         "conditions": ["Cough", "Chest Pain", "Fatigue"],
         "conclusion": "Pneumonia"
     },
     {
-        "id": "A3",
+        "id": "D3",
         "conditions": ["Sneezing", "Runny Nose", "Sore Throat"],
         "conclusion": "Flu"
     },
     {
-        "id": "A4",
+        "id": "D4",
         "conditions": ["Vomiting", "Diarrhea", "Fatigue"],
         "conclusion": "Food Poisoning"
     },

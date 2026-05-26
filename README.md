@@ -22,15 +22,15 @@ The system can infer the following medical conditions:
 
 ## 6. Rules Applied
 The inference engine applies strict IF-THEN logic. Examples include:
-* **Rule A1:** IF (Fever AND Headache AND Fatigue) THEN conclude **Malaria**.
-* **Rule A2:** IF (Cough AND Chest Pain AND Fatigue) THEN conclude **Pneumonia**.
-* **Rule A3:** IF (Sneezing AND Runny Nose AND Sore Throat) THEN conclude **Flu**.
-* **Rule A4:** IF (Vomiting AND Diarrhea AND Fatigue) THEN conclude **Food Poisoning**.
+* **Rule D1:** IF (Fever AND Headache AND Fatigue) THEN conclude **Malaria**.
+* **Rule D2:** IF (Cough AND Chest Pain AND Fatigue) THEN conclude **Pneumonia**.
+* **Rule D3:** IF (Sneezing AND Runny Nose AND Sore Throat) THEN conclude **Flu**.
+* **Rule D4:** IF (Vomiting AND Diarrhea AND Fatigue) THEN conclude **Food Poisoning**.
 
 ## 7. Technologies Used
 * **Language:** Python 3.x
 * **Data Structures:** Python Dictionaries and Lists (for the Knowledge Base)
-* **Visualization:** Mermaid.js (for Semantic Network generation)
+* **Visualization:** Draw.io 
 
 ## 8. How to Run the Program
 1. Clone this repository to your local machine.
